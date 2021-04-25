@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Inbox
+      Lentswe
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -14,12 +14,17 @@
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">
-        Inbox
+        Lenstswe
       </ion-title>
     </ion-toolbar>
   </ion-header>
-  
-  <ion-list>
-    <app-message *ngFor="let message of getMessages()" [message]="message"></app-message>
-  </ion-list>
+
+  <ion-button expand="block" routerLink="/welcome" routerDirection="forward">
+    Welcome
+  </ion-button>
+ 
+  <ion-button expand="block" routerLink="/library" routerDirection="forward">
+    Library
+  </ion-button>
+ 
 </ion-content>
