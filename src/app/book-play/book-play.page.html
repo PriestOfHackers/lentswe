@@ -5,5 +5,27 @@
 </ion-header>
 
 <ion-content>
-
+     <ion-label>
+      Christian reflections during a crisis
+     </ion-label>
 </ion-content>
+
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-col class="ion-text-center">
+     <!-- <ion-button fill="clear" (click)="prev()" color="white">
+      <ion-icon name="square"></ion-icon> 
+    </ion-button>-->
+     <ion-button fill="clear" (click)="start(null)" color="white">
+        <ion-icon slot="icon-only" name="play"></ion-icon>
+      </ion-button>
+      <!-- <ion-button fill="clear" (click)="prev()" color="white">
+        <ion-icon slot="icon-only" name="pause"></ion-icon>
+     </ion-button>-->
+     <ion-button fill="clear" (click)="stop()" color="white">
+      <ion-icon name="square"></ion-icon>
+      </ion-button>
+      </ion-col>
+  </ion-toolbar>
+</ion-footer>
